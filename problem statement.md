@@ -1,0 +1,5 @@
+# Project Problem Statement
+
+Sometimes, big graphical task management apps are just too heavy. They take time to load, have too many confusing features, and break your flow—especially if you spend most of your time working in the terminal. I wanted something fast and distraction-free.
+
+The goal of this project was to build a super simple Command Line Interface (CLI) task manager using just standard Python. It needed to do a few basic things: let users add, view, and remove tasks quickly without ever leaving the terminal. It also had to remember the tasks even after closing the app. Instead of setting up a whole complicated SQL database, I decided to use a simple, lightweight JSON file to save the data. It also needed to automatically timestamp when a task was created. Basically, the idea was to create a quick, no-nonsense way to keep track of what you need to do.
